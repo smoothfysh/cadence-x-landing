@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&amp;family=Helvetica+Neue:wght@400;500;700&amp;display=swap" rel="stylesheet">
+<script src="./image-slot.js"></script>
+<style>
+  body { margin: 0; background: oklch(0.98 0.002 90); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  a { color: oklch(0.45 0.1 240); text-decoration: none; }
+  a:hover { color: oklch(0.35 0.12 240); }
+</style>
+</helmet>
+
+<div style="min-height:100vh; display:flex; flex-direction:column; align-items:center; padding:60px 24px 60px; box-sizing:border-box;">
+
+  <a href="index.html" style="font-size:14px; font-weight:600; color:oklch(0.5 0.005 90); margin-bottom:40px; align-self:flex-start; max-width:760px; width:100%;">← Back to Cadence–X</a>
+
+  <div style="display:flex; gap:36px; align-items:center; max-width:760px; width:100%; flex-wrap:wrap; margin-bottom:56px;">
+    <image-slot id="profile-photo" style="width:160px; height:160px;" shape="circle" placeholder="Drop a photo of Anushka" src="uploads/20210718_200217.jpg"></image-slot>
+    <div style="flex:1 1 320px;">
+      <h1 style="font-family:'Archivo Black', sans-serif; font-size:44px; margin:0 0 8px; color:oklch(0.2 0.005 90);">Hi, I’m Anushka.</h1>
+      <p style="font-size:17px; line-height:1.6; color:oklch(0.4 0.005 90); margin:0;">Product person by trade, engineer by training, and the reason a kids’ games site and a roadmap tool share a homepage. Turns out 20+ years of shipping software leaves you with some odd side projects.</p>
+    </div>
+  </div>
+
+  <div style="max-width:760px; width:100%; background:white; border-radius:20px; padding:36px 40px; box-shadow:0 1px 3px oklch(0 0 0 / 0.08); margin-bottom:32px; border-top:6px solid oklch(0.55 0.12 235);">
+    <div style="font-size:13px; font-weight:700; letter-spacing:1.5px; color:oklch(0.5 0.12 235); text-transform:uppercase; margin-bottom:16px;">THE QUICK TL;DR VERSION ABOUT ME</div>
+    <p style="font-size:15px; line-height:1.75; color:oklch(0.35 0.005 90); margin:0 0 14px;">I’ve spent 20+ years bouncing between software design for mobile phones, e-commerce, martech and now digital real-estate — and I’ve worn most of the hats along the way: software engineer, product planner, product manager, strategist.</p>
+    <p style="font-size: 15px; line-height: 1.75; color: oklch(0.35 0.005 90); margin: 0 0 14px; text-align: left">That mix has taught me how to navigate messy, ambiguous problems — the kind that show up when a company changes hands or a market shifts overnight — and still keep teams shipping. I care a lot more about getting the thing delivered than getting credit for it; execution is what actually moves the needle.<br></p><p style="font-size: 15px; line-height: 1.75; color: oklch(0.35 0.005 90); margin: 0 0 14px; text-align: center"><b><span style="font-weight: normal;">If I had to summarise myself, I'd say:<br></span>I'm Passionately curious</b> | <b>Strangely enjoy babysitting chaos</b> | <b>Obsessed about solving the problems my customers have</b> | <b>Nerd at heart</b> | <b>Product Strategist</b> | <b>Advisor and Consultant</b></p><p style="font-size:15px; line-height:1.75; color:oklch(0.35 0.005 90); margin:0 0 14px;">If there’s a throughline, it’s this: I’m at my best translating technical innovation into something people can actually feel the benefit of. That’s as true for a roadmap tool a PM opens every morning as it is for a game simple enough for a five-year-old to figure out alone — which is more or less why Cadence–X exists. No grand unifying theory, just things I wanted to build, living under one roof.</p>
+    
+    
+  </div>
+
+  <div style="max-width:760px; width:100%; display:flex; gap:20px; justify-content:center; font-size:14px; color:oklch(0.5 0.005 90); margin-top:8px;">
+    <a href="mailto:anushka@cadence-x.com">Send this guy an email</a>
+    <span>·</span>
+    <a href="https://www.linkedin.com/in/anushka/" target="_blank">Check out his LinkedIn</a>
+  </div>
+
+  
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}"></script>
+</body>
+</html>
