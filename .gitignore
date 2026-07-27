@@ -1,0 +1,2 @@
+# Local Claude Code config — contains secrets, never commit
+.claude/
