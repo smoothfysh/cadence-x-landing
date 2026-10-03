@@ -9,7 +9,7 @@ UK | Senior Software Engineer
 ## 2004 | Sharp
 UK | Senior Product Manager
 
-## 2012 | Spreadshirt
+## 2013 | Spreadshirt
 Germany | Director of Product Management
 
 ## 2018 | Selligent
