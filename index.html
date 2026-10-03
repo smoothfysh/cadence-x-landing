@@ -83,10 +83,16 @@
 
   </div>
 
-  
+  <footer style="margin-top:auto; padding-top:56px; text-align:center; font-size:14px; color:oklch(0.45 0.005 90);">
+    &copy; <span id="footer-year">2026</span> CADENCE-X &nbsp;&bull;&nbsp; All rights reserved.
+  </footer>
+
 </div>
 
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props="{}"></script>
+<script>
+  document.getElementById('footer-year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
